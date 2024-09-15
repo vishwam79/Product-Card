@@ -47,7 +47,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
         <div className="w-full max-w-sm min-h-96 max-h-96 border border-gray-700 rounded-lg shadow bg-transparent">
           <a href="#">
             <div className="p-6 rounded-lg">
-              <Image className="rounded-lg" src={images[0]} width={250} height={250} alt="product image" />
+              <Image className="rounded-lg" src={images[0]} width={500} height={500} alt="product image" />
             </div>
           </a>
           <div className="px-5 pb-5">

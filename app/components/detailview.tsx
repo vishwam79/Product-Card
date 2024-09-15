@@ -46,7 +46,7 @@ const ProductView: React.FC<ProductViewProps> = ({
             src={images[currentIndex]}
             alt={name}
             className="md:w-[90%] items-center object-cover rounded-lg"
-            width={250} height={250}
+            width={700} height={700}
           />
 
           {/* Left Arrow */}
@@ -67,7 +67,7 @@ const ProductView: React.FC<ProductViewProps> = ({
 
         <div className="hidden md:flex mt-5 justify-center items-center gap-3">
           <Image
-          width={250} height={250}
+          width={700} height={700}
             className={
               currentIndex === 0
                 ? "border-[1px] border-white p-1 rounded-md w-28"
@@ -78,7 +78,7 @@ const ProductView: React.FC<ProductViewProps> = ({
           />
 
           <Image
-          width={250} height={250}
+          width={700} height={700}
             className={
               currentIndex === 1
                 ? "border-[1px] border-white p-1 rounded-md w-28"
@@ -89,7 +89,7 @@ const ProductView: React.FC<ProductViewProps> = ({
           />
 
           <Image
-          width={250} height={250}
+          width={700} height={700}
             className={
               currentIndex === 2
                 ? "border-[1px] border-white p-1 rounded-md w-28"

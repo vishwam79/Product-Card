@@ -28,7 +28,7 @@ const Header = () => {
             className="mt-5 text-center text-[20px] font-semibold text-blue-50 md:text-3xl lg:text-5xl "
            
           >Next Js Product Card View with Tailwind css and <span className="text-purple-400">Framer motion</span> </div>
-          <p className="text-center mt-3 text-gray-500 md:tracking-widest mb-4 text-sm md:text-sm lg:text-sm text-white-100 ">Hi, I'm Vishwam a MERN Stack / Next js Developer</p>
+          <p className="text-center mt-3 text-gray-500 md:tracking-widest mb-4 text-sm md:text-sm lg:text-sm text-white-100 ">Hi, I am Vishwam a MERN Stack / Next js Developer</p>
           <button title="Show My Work" ></button>
         </div>
       </motion.div>
